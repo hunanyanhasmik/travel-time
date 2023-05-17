@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/logo__primaryColorwebp.webp" type="image/png">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <title>Travel Time</title>
+</head>
+
+<body id="home">
+    <!-- HEADER-->
+
+    <header class="header" id="header">
+
+        <!-- NAV -->
+
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="nav__logo">
+                    <img src=".//img/logo.webp" alt="logo" height="54">
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Discover</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">Services</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#team" class="nav__link">Team</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contacts" class="nav__link">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <div class="burger__menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="nav__mode">
+                        <div class="toggle-icon">
+                            <span class="sun">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.1"
+                                    d="M15 12C15 13.6569 13.6569 15 12 15C10.3431 15 9 13.6569 9 12C9 10.3431 10.3431 9 12 9C13.6569 9 15 10.3431 15 12Z"
+                                    fill="#FFFFFF" />
+                                <path
+                                    d="M15 12C15 13.6569 13.6569 15 12 15C10.3431 15 9 13.6569 9 12C9 10.3431 10.3431 9 12 9C13.6569 9 15 10.3431 15 12Z"
+                                    stroke="#FFFFFF" stroke-width="2" />
+                                <path d="M12 5V3" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M17 7L19 5" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M19 12H21" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M17 17L19 19" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M12 19V21" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M7 17L5 19" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M5 12H3" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M5 5L7 7" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            </span>
+                            <span class="moon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M10.9866 2.81264C11.1759 3.25273 11.0265 3.76528 10.6304 4.03473C9.04069 5.11602 8 6.93663 8 8.99999C8 12.3137 10.6863 15 14 15C16.9001 15 19.3217 12.9413 19.8791 10.205C19.9749 9.7348 20.3912 9.39893 20.871 9.40466C21.3508 9.4104 21.7589 9.75612 21.8434 10.2285C21.9464 10.8042 22 11.3962 22 12C22 17.5229 17.5229 22 12 22C6.47713 22 2 17.5229 2 12C2 7.21279 5.36283 3.21342 9.85431 2.23097C10.3223 2.1286 10.7972 2.37255 10.9866 2.81264ZM6.51162 6.17934C4.96517 7.6383 4 9.70684 4 12C4 16.4183 7.5817 20 12 20C15.4257 20 18.3485 17.8468 19.4889 14.8199C18.0565 16.1715 16.1254 17 14 17C9.58175 17 6 13.4182 6 8.99999C6 8.00706 6.18101 7.05645 6.51162 6.17934Z"
+                                    fill="#ffffff" />
+                            </svg>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="dropDown">
+            <div class="dropDown-menu">
+                <div class="dropDown-menu__list">
+                    <div class="dropDown-menu__item">
+                        <a href="index.html">Home</a>
+                    </div>
+                    <div class="dropDown-menu__item">
+                        <a href="contact.html">Contact</a>
+                    </div>
+                    <div class="dropDown-menu__item">
+                        <a href="about.html">About</a>
+                    </div>
+                    <div class="dropDown-menu__item">
+                        <a href="sign-up.html">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- HEADER SLIDER -->
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background: url(./img/slide-1.jpg)no-repeat 50% 50% / cover;">
+                    <div class="header__content">
+                        <h5 class="header__content__subtitle">Discover your place</h5>
+                        <h2 class="header__content__title">Explore The <br> Best Beautiful <br> Beaches</h2>
+                        <button class="btn">Explore</button>
+                        <div class="social__media">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <svg width="20" height="20" viewBox="-5 0 20 20" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    </defs>
+                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="Dribbble-Light-Preview" transform="translate(-385.000000, -7399.000000)"
+                                            fill="#FFFFFF">
+                                            <g id="icons" transform="translate(56.000000, 160.000000)">
+                                                <path
+                                                    d="M335.821282,7259 L335.821282,7250 L338.553693,7250 L339,7246 L335.821282,7246 L335.821282,7244.052 C335.821282,7243.022 335.847593,7242 337.286884,7242 L338.744689,7242 L338.744689,7239.14 C338.744689,7239.097 337.492497,7239 336.225687,7239 C333.580004,7239 331.923407,7240.657 331.923407,7243.7 L331.923407,7246 L329,7246 L329,7250 L331.923407,7250 L331.923407,7259 L335.821282,7259 Z"
+                                                    id="facebook-[#176]">
+
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <svg width="20" height="20" viewBox="0 0 20 20" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    </defs>
+                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7439.000000)"
+                                            fill="#FFFFFF">
+                                            <g id="icons" transform="translate(56.000000, 160.000000)">
+                                                <path
+                                                    d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792"
+                                                    id="instagram-[#167]">
+
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank">
+                                <svg width="20" height="20" viewBox="0 -2 20 20" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    </defs>
+                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="Dribbble-Light-Preview" transform="translate(-60.000000, -7521.000000)"
+                                            fill="#FFFFFF">
+                                            <g id="icons" transform="translate(56.000000, 160.000000)">
+                                                <path
+                                                    d="M10.29,7377 C17.837,7377 21.965,7370.84365 21.965,7365.50546 C21.965,7365.33021 21.965,7365.15595 21.953,7364.98267 C22.756,7364.41163 23.449,7363.70276 24,7362.8915 C23.252,7363.21837 22.457,7363.433 21.644,7363.52751 C22.5,7363.02244 23.141,7362.2289 23.448,7361.2926 C22.642,7361.76321 21.761,7362.095 20.842,7362.27321 C19.288,7360.64674 16.689,7360.56798 15.036,7362.09796 C13.971,7363.08447 13.518,7364.55538 13.849,7365.95835 C10.55,7365.79492 7.476,7364.261 5.392,7361.73762 C4.303,7363.58363 4.86,7365.94457 6.663,7367.12996 C6.01,7367.11125 5.371,7366.93797 4.8,7366.62489 L4.8,7366.67608 C4.801,7368.5989 6.178,7370.2549 8.092,7370.63591 C7.488,7370.79836 6.854,7370.82199 6.24,7370.70483 C6.777,7372.35099 8.318,7373.47829 10.073,7373.51078 C8.62,7374.63513 6.825,7375.24554 4.977,7375.24358 C4.651,7375.24259 4.325,7375.22388 4,7375.18549 C5.877,7376.37088 8.06,7377 10.29,7376.99705"
+                                                    id="twitter-[#154]">
+
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background: url(./img/slide_2.jpg)no-repeat 50% 0% / cover;">
+                    <div class="header__content">
+                        <h5 class="header__content__subtitle">A team of professional Travel Experts</h5>
+                        <h2 class="header__content__title">Trust Our <br> Experience</h2>
+                        <button class="btn">Explore</button>
+                        <div class="social__media">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <svg width="20" height="20" viewBox="-5 0 20 20" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    </defs>
+                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="Dribbble-Light-Preview" transform="translate(-385.000000, -7399.000000)"
+                                            fill="#FFFFFF">
+                                            <g id="icons" transform="translate(56.000000, 160.000000)">
+                                                <path
+                                                    d="M335.821282,7259 L335.821282,7250 L338.553693,7250 L339,7246 L335.821282,7246 L335.821282,7244.052 C335.821282,7243.022 335.847593,7242 337.286884,7242 L338.744689,7242 L338.744689,7239.14 C338.744689,7239.097 337.492497,7239 336.225687,7239 C333.580004,7239 331.923407,7240.657 331.923407,7243.7 L331.923407,7246 L329,7246 L329,7250 L331.923407,7250 L331.923407,7259 L335.821282,7259 Z"
+                                                    id="facebook-[#176]">
+
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <svg width="20" height="20" viewBox="0 0 20 20" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    </defs>
+                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7439.000000)"
+                                            fill="#FFFFFF">
+                                            <g id="icons" transform="translate(56.000000, 160.000000)">
+                                                <path
+                                                    d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792"
+                                                    id="instagram-[#167]">
+
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank">
+                                <svg width="20" height="20" viewBox="0 -2 20 20" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    </defs>
+                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="Dribbble-Light-Preview" transform="translate(-60.000000, -7521.000000)"
+                                            fill="#FFFFFF">
+                                            <g id="icons" transform="translate(56.000000, 160.000000)">
+                                                <path
+                                                    d="M10.29,7377 C17.837,7377 21.965,7370.84365 21.965,7365.50546 C21.965,7365.33021 21.965,7365.15595 21.953,7364.98267 C22.756,7364.41163 23.449,7363.70276 24,7362.8915 C23.252,7363.21837 22.457,7363.433 21.644,7363.52751 C22.5,7363.02244 23.141,7362.2289 23.448,7361.2926 C22.642,7361.76321 21.761,7362.095 20.842,7362.27321 C19.288,7360.64674 16.689,7360.56798 15.036,7362.09796 C13.971,7363.08447 13.518,7364.55538 13.849,7365.95835 C10.55,7365.79492 7.476,7364.261 5.392,7361.73762 C4.303,7363.58363 4.86,7365.94457 6.663,7367.12996 C6.01,7367.11125 5.371,7366.93797 4.8,7366.62489 L4.8,7366.67608 C4.801,7368.5989 6.178,7370.2549 8.092,7370.63591 C7.488,7370.79836 6.854,7370.82199 6.24,7370.70483 C6.777,7372.35099 8.318,7373.47829 10.073,7373.51078 C8.62,7374.63513 6.825,7375.24554 4.977,7375.24358 C4.651,7375.24259 4.325,7375.22388 4,7375.18549 C5.877,7376.37088 8.06,7377 10.29,7376.99705"
+                                                    id="twitter-[#154]">
+
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background: url(./img/slide-3.jpg)no-repeat 50% 50% / cover;">
+                    <div class="header__content">
+                        <h5 class="header__content__subtitle">Enjoy the Best Destinations with Our Travel Agency</h5>
+                        <h2 class="header__content__title">Explore<br> The World</h2>
+                        <button class="btn">Explore</button>
+                        <div class="social__media">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <svg width="20" height="20" viewBox="-5 0 20 20" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    </defs>
+                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="Dribbble-Light-Preview" transform="translate(-385.000000, -7399.000000)"
+                                            fill="#FFFFFF">
+                                            <g id="icons" transform="translate(56.000000, 160.000000)">
+                                                <path
+                                                    d="M335.821282,7259 L335.821282,7250 L338.553693,7250 L339,7246 L335.821282,7246 L335.821282,7244.052 C335.821282,7243.022 335.847593,7242 337.286884,7242 L338.744689,7242 L338.744689,7239.14 C338.744689,7239.097 337.492497,7239 336.225687,7239 C333.580004,7239 331.923407,7240.657 331.923407,7243.7 L331.923407,7246 L329,7246 L329,7250 L331.923407,7250 L331.923407,7259 L335.821282,7259 Z"
+                                                    id="facebook-[#176]">
+
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <svg width="20" height="20" viewBox="0 0 20 20" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    </defs>
+                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7439.000000)"
+                                            fill="#FFFFFF">
+                                            <g id="icons" transform="translate(56.000000, 160.000000)">
+                                                <path
+                                                    d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792"
+                                                    id="instagram-[#167]">
+
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank">
+                                <svg width="20" height="20" viewBox="0 -2 20 20" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    </defs>
+                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="Dribbble-Light-Preview" transform="translate(-60.000000, -7521.000000)"
+                                            fill="#FFFFFF">
+                                            <g id="icons" transform="translate(56.000000, 160.000000)">
+                                                <path
+                                                    d="M10.29,7377 C17.837,7377 21.965,7370.84365 21.965,7365.50546 C21.965,7365.33021 21.965,7365.15595 21.953,7364.98267 C22.756,7364.41163 23.449,7363.70276 24,7362.8915 C23.252,7363.21837 22.457,7363.433 21.644,7363.52751 C22.5,7363.02244 23.141,7362.2289 23.448,7361.2926 C22.642,7361.76321 21.761,7362.095 20.842,7362.27321 C19.288,7360.64674 16.689,7360.56798 15.036,7362.09796 C13.971,7363.08447 13.518,7364.55538 13.849,7365.95835 C10.55,7365.79492 7.476,7364.261 5.392,7361.73762 C4.303,7363.58363 4.86,7365.94457 6.663,7367.12996 C6.01,7367.11125 5.371,7366.93797 4.8,7366.62489 L4.8,7366.67608 C4.801,7368.5989 6.178,7370.2549 8.092,7370.63591 C7.488,7370.79836 6.854,7370.82199 6.24,7370.70483 C6.777,7372.35099 8.318,7373.47829 10.073,7373.51078 C8.62,7374.63513 6.825,7375.24554 4.977,7375.24358 C4.651,7375.24259 4.325,7375.22388 4,7375.18549 C5.877,7376.37088 8.06,7377 10.29,7376.99705"
+                                                    id="twitter-[#154]">
+
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="swiper-slide">Slide 3</div> -->
+
+
+            </div>
+            <div class="swiper-pagination"></div>
+            <!-- </div> -->
+        </div>
+    </header>
+
+    <!-- ABOUT -->
+
+    <div class="about__section" id="about">
+        <div class="container">
+            <div class="about__section__content">
+                <div class="about__data" data-sr-id="28"
+                    style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2.8s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2.8s cubic-bezier(0.5, 0, 0, 1) 0s;">
+                    <h2 class="section__title">More Information <br> About The Best Beaches</h2>
+                    <p class="about__description">You can find the most beautiful and pleasant places at the best <br>
+                        prices with special discounts, you choose the place we will guide <br> you all the way to wait,
+                        get your
+                        place now.
+                    </p>
+                    <button href="#" class="btn">Reserve a place</button>
+                </div>
+
+                <div class="about__img">
+                    <div class="about__img-overlay" data-sr-id="32"
+                        style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2.8s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2.8s cubic-bezier(0.5, 0, 0, 1) 0s;">
+                        <img src="img/about1.jpg" alt="" class="about__img-one">
+                    </div>
+
+                    <div class="about__img-overlay" data-sr-id="33"
+                        style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2.8s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2.8s cubic-bezier(0.5, 0, 0, 1) 0s;">
+                        <img src="img/about2.jpg" alt="" class="about__img-two">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- DISCOVER -->
+
+    <div class="discover__section" id="discover">
+        <div class="container">
+            <div class="discover__block">
+                <div class="discover__block__img">
+                    <img src="./img/new__horizons.jpg" alt="Discover New Horizons">
+                </div>
+                <div class="discover__block__info">
+                    <h2 class="section__title">Discover New Horizons</h2>
+                    <ul class="discover__menu">
+                        <li class="discover__menu__item active">ABOUT US</li>
+                        <li class="discover__menu__item">WHY CHOOSE US</li>
+                        <li class="discover__menu__item">OUR MISSION</li>
+                    </ul>
+                    <div class="tab__content">
+                        <p c. active">Wonder Tour is committed to bringing our clients the best in <br> value and
+                            quality travel arrangements. We are passionate about <br> travel and sharing the world's
+                            wonders with you.</p>
+                        <p class="tab__txt">We are proud to offer excellent quality and value for money in our<br> tours, which give you the chance to experience your chosen <br> destination in an authentic and exciting way.</p>
+                        <p class="tab__txt">Our mission is to provide the ultimate travel planning experience <br> while becoming a one-stop shop for every travel service available <br> in the industry.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SERVICES -->
+
+    <div class="services__section" id="services">
+        <div class="container">
+            <h2 class="section__title">Our Services</h2>
+            <div class="services__block">
+                <div class="services__block__item">
+                    <svg width="100" height="100" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g opacity="0.15">
+                            <path
+                                d="M21 12C21 13.1046 20.1046 14 19 14C17.8954 14 17 13.1046 17 12C17 10.8954 17.8954 10 19 10C20.1046 10 21 10.8954 21 12Z"
+                                fill="#01B3A7" />
+                            <path
+                                d="M14 18C14 19.1046 13.1046 20 12 20C10.8954 20 10 19.1046 10 18C10 16.8954 10.8954 16 12 16C13.1046 16 14 16.8954 14 18Z"
+                                fill="#01B3A7" />
+                            <path
+                                d="M7 6C7 7.10457 6.10457 8 5 8C3.89543 8 3 7.10457 3 6C3 4.89543 3.89543 4 5 4C6.10457 4 7 4.89543 7 6Z"
+                                fill="#01B3A7" />
+                        </g>
+                        <path
+                            d="M19 4V10M19 10C17.8954 10 17 10.8954 17 12C17 13.1046 17.8954 14 19 14M19 10C20.1046 10 21 10.8954 21 12C21 13.1046 20.1046 14 19 14M19 14V20M12 4V16M12 16C10.8954 16 10 16.8954 10 18C10 19.1046 10.8954 20 12 20C13.1046 20 14 19.1046 14 18C14 16.8954 13.1046 16 12 16ZM5 8V20M5 8C6.10457 8 7 7.10457 7 6C7 4.89543 6.10457 4 5 4C3.89543 4 3 4.89543 3 6C3 7.10457 3.89543 8 5 8Z"
+                            stroke="#01B3A7" stroke-width="1.5" stroke-linecap="round" />
+                    </svg>
+                    <div class="item__info">
+                        <h4 class="item__title">Personalized Matching</h4>
+                        <p class="item__descr">Our unique matching system lets you find just the tour you want for your
+                            next holiday.</p>
+                    </div>
+                </div>
+                <div class="services__block__item">
+                    <svg width="100" height="100" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g opacity="0.15">
+                            <path
+                                d="M21 12C21 13.1046 20.1046 14 19 14C17.8954 14 17 13.1046 17 12C17 10.8954 17.8954 10 19 10C20.1046 10 21 10.8954 21 12Z"
+                                fill="#01B3A7" />
+                            <path
+                                d="M14 18C14 19.1046 13.1046 20 12 20C10.8954 20 10 19.1046 10 18C10 16.8954 10.8954 16 12 16C13.1046 16 14 16.8954 14 18Z"
+                                fill="#01B3A7" />
+                            <path
+                                d="M7 6C7 7.10457 6.10457 8 5 8C3.89543 8 3 7.10457 3 6C3 4.89543 3.89543 4 5 4C6.10457 4 7 4.89543 7 6Z"
+                                fill="#01B3A7" />
+                        </g>
+                        <path
+                            d="M19 4V10M19 10C17.8954 10 17 10.8954 17 12C17 13.1046 17.8954 14 19 14M19 10C20.1046 10 21 10.8954 21 12C21 13.1046 20.1046 14 19 14M19 14V20M12 4V16M12 16C10.8954 16 10 16.8954 10 18C10 19.1046 10.8954 20 12 20C13.1046 20 14 19.1046 14 18C14 16.8954 13.1046 16 12 16ZM5 8V20M5 8C6.10457 8 7 7.10457 7 6C7 4.89543 6.10457 4 5 4C3.89543 4 3 4.89543 3 6C3 7.10457 3.89543 8 5 8Z"
+                            stroke="#01B3A7" stroke-width="1.5" stroke-linecap="round" />
+                    </svg>
+                    <div class="item__info">
+                        <h4 class="item__title">Wide Variety of Tours</h4>
+                        <p class="item__descr">We offer a wide variety of personally picked tours with destinations all
+                            over the globe.</p>
+                    </div>
+                </div>
+                <div class="services__block__item">
+                    <svg width="100" height="100" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M14.65 8.93274L12.4852 4.30901C12.2923 3.89699 11.7077 3.897 11.5148 4.30902L9.35002 8.93274L4.45559 9.68243C4.02435 9.74848 3.84827 10.2758 4.15292 10.5888L7.71225 14.2461L6.87774 19.3749C6.80571 19.8176 7.27445 20.1487 7.66601 19.9317L12 17.5299L16.334 19.9317C16.7256 20.1487 17.1943 19.8176 17.1223 19.3749L16.2878 14.2461L19.8471 10.5888C20.1517 10.2758 19.9756 9.74848 19.5444 9.68243L14.65 8.93274Z"
+                            stroke="#01B3A7" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <div class="item__info">
+                        <h4 class="item__title">Highly Qualified Service</h4>
+                        <p class="item__descr">Our tour managers are qualified, skilled, and friendly to bring you the
+                            best service.</p>
+                    </div>
+                </div>
+                <div class="services__block__item">
+                    <svg width="100" height="100" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M3.76453 13.3726V11.0849C3.76453 6.53663 7.45166 2.84949 12 2.84949V2.84949C16.5483 2.84949 20.2354 6.53663 20.2354 11.0849V13.9856"
+                            stroke="#01B3A7" stroke-width="1.69904" />
+                        <path
+                            d="M2.84949 17.4903V16.1566C2.84949 14.1351 4.48822 12.4964 6.50969 12.4964C7.52042 12.4964 8.33979 13.3158 8.33979 14.3265V19.3204C8.33979 20.3311 7.52042 21.1505 6.50969 21.1505C4.48822 21.1505 2.84949 19.5118 2.84949 17.4903Z"
+                            stroke="#01B3A7" stroke-width="1.69904" />
+                        <path
+                            d="M21.1505 17.4903V16.1566C21.1505 14.1351 19.5118 12.4964 17.4903 12.4964C16.4796 12.4964 15.6602 13.3158 15.6602 14.3265V19.3204C15.6602 20.3311 16.4796 21.1505 17.4903 21.1505C19.5118 21.1505 21.1505 19.5118 21.1505 17.4903Z"
+                            stroke="#01B3A7" stroke-width="1.69904" />
+                    </svg>
+                    <div class="item__info">
+                        <h4 class="item__title">24/7 Support</h4>
+                        <p class="item__descr">You can always get professional support from our staff 24/7 and ask any
+                            question you have.</p>
+                    </div>
+                </div>
+                <div class="services__block__item">
+                    <svg fill="#01B3A7" width="100" height="100" viewBox="0 0 32 32" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M15.888 31.977c-7.539 0-12.887-5.228-12.887-12.431 0-3.824 2.293-7.944 2.39-8.116 0.199-0.354 0.59-0.547 0.998-0.502 0.404 0.052 0.736 0.343 0.84 0.736 0.006 0.024 0.624 2.336 1.44 3.62 0.548 0.864 1.104 1.475 1.729 1.899-0.423-1.833-0.747-4.591-0.22-7.421 1.448-7.768 7.562-9.627 7.824-9.701 0.337-0.097 0.695-0.010 0.951 0.223 0.256 0.235 0.373 0.586 0.307 0.927-0.010 0.054-1.020 5.493 1.123 10.127 0.195 0.421 0.466 0.91 0.758 1.399 0.083-0.672 0.212-1.386 0.41-2.080 0.786-2.749 2.819-3.688 2.904-3.726 0.339-0.154 0.735-0.104 1.027 0.126 0.292 0.231 0.433 0.603 0.365 0.969-0.011 0.068-0.294 1.938 1.298 4.592 1.438 2.396 1.852 3.949 1.852 6.928 0 7.203-5.514 12.43-13.111 12.43zM6.115 14.615c-0.549 1.385-1.115 3.226-1.115 4.931 0 6.044 4.506 10.43 10.887 10.43 6.438 0 11.11-4.386 11.11-10.431 0-2.611-0.323-3.822-1.567-5.899-0.832-1.386-1.243-2.633-1.439-3.625-0.198 0.321-0.382 0.712-0.516 1.184-0.61 2.131-0.456 4.623-0.454 4.649 0.029 0.446-0.242 0.859-0.664 1.008s-0.892 0.002-1.151-0.364c-0.075-0.107-1.854-2.624-2.637-4.32-1.628-3.518-1.601-7.323-1.434-9.514-1.648 0.96-4.177 3.104-4.989 7.466-0.791 4.244 0.746 8.488 0.762 8.529 0.133 0.346 0.063 0.739-0.181 1.018-0.245 0.277-0.622 0.4-0.986 0.313-0.124-0.030-2.938-0.762-4.761-3.634-0.325-0.514-0.617-1.137-0.864-1.742z">
+                        </path>
+                    </svg>
+                    <div class="item__info">
+                        <h4 class="item__title">Handpicked Hotels</h4>
+                        <p class="item__descr">Our team offers only the best selection of affordable and luxury hotels
+                            to our clients.</p>
+                    </div>
+                </div>
+                <div class="services__block__item">
+                    <svg width="100" height="100" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M19 7.24997H18.75V4.99997C18.7474 4.53665 18.5622 4.09305 18.2345 3.76543C17.9069 3.43781 17.4633 3.25259 17 3.24997C16.9207 3.23552 16.8393 3.23552 16.76 3.24997L4.86 7.24997H4.75H4.59L4.42 7.30997H4.28L4.12 7.39997L4 7.56997L3.86 7.68997L3.75 7.78997L3.63 7.93997C3.598 7.96867 3.57097 8.00246 3.55 8.03997C3.51288 8.09779 3.47948 8.15791 3.45 8.21997L3.39 8.32997C3.36216 8.40179 3.33878 8.47526 3.32 8.54997C3.3245 8.5865 3.3245 8.62344 3.32 8.65997C3.30967 8.77307 3.30967 8.88687 3.32 8.99997V19C3.3221 19.4515 3.49765 19.8849 3.81034 20.2106C4.12303 20.5364 4.54895 20.7295 5 20.75H19C19.4633 20.7473 19.9069 20.5621 20.2345 20.2345C20.5622 19.9069 20.7474 19.4633 20.75 19V8.99997C20.7474 8.53665 20.5622 8.09305 20.2345 7.76543C19.9069 7.43781 19.4633 7.25259 19 7.24997ZM17.08 4.75997C17.1293 4.77814 17.1719 4.81078 17.2022 4.85362C17.2325 4.89646 17.2492 4.94748 17.25 4.99997V7.24997H9.62L17.08 4.75997ZM19.25 19C19.25 19.0663 19.2237 19.1299 19.1768 19.1767C19.1299 19.2236 19.0663 19.25 19 19.25H5C4.9337 19.25 4.87011 19.2236 4.82322 19.1767C4.77634 19.1299 4.75 19.0663 4.75 19V8.99997C4.75 8.93367 4.77634 8.87008 4.82322 8.82319C4.87011 8.77631 4.9337 8.74997 5 8.74997H19C19.0663 8.74997 19.1299 8.77631 19.1768 8.82319C19.2237 8.87008 19.25 8.93367 19.25 8.99997V19Z"
+                            fill="#01B3A7" />
+                        <path
+                            d="M16.5 15.25C17.1904 15.25 17.75 14.6904 17.75 14C17.75 13.3096 17.1904 12.75 16.5 12.75C15.8096 12.75 15.25 13.3096 15.25 14C15.25 14.6904 15.8096 15.25 16.5 15.25Z"
+                            fill="#01B3A7" />
+                    </svg>
+                    </svg>
+                    <div class="item__info">
+                        <h4 class="item__title">Best Price Guarantee</h4>
+                        <p class="item__descr">If you find tours that are cheaper than ours, we will compensate the
+                            difference.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TEAM -->
+
+    <div class="team__section" id="team">
+        <div class="container">
+            <h2 class="section__title">Different People — One Mission</h2>
+            <div class="team__block">
+                <div class="team__item">
+                    <div class="team__item__img">
+                        <img src="./img/owner.jpg" alt="Founder, Owner">
+                        <svg x="0px" y="0px" width="263" height="70px" viewBox="0 0 270 70"
+                            enable-background="new 0 0 270 70" xml:space="preserve">
+                            <g>
+                                <path fill="#f7f7f7"
+                                    d="M202.085,0C193.477,28.912,166.708,50,135,50S76.523,28.912,67.915,0H0v70h270V0H202.085z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="team__item__info">
+                        <h4 class="member__name">Diana Robinson</h4>
+                        <h5 class="member__status">Founder, Owner</h5>
+                        <span class="team__phone">+1 323-913-4688</span>
+                    </div>
+                </div>
+                <div class="team__item">
+                    <div class="team__item__img">
+                        <img src="./img/agent.jpg" alt="Travel Agent">
+                        <svg x="0px" y="0px" width="263" height="70px" viewBox="0 0 270 70"
+                            enable-background="new 0 0 270 70" xml:space="preserve">
+                            <g>
+                                <path fill="#f7f7f7"
+                                    d="M202.085,0C193.477,28.912,166.708,50,135,50S76.523,28.912,67.915,0H0v70h270V0H202.085z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="team__item__info">
+                        <h4 class="member__name">Peter McMillan</h4>
+                        <h5 class="member__status">Travel Agent</h5>
+                        <span class="team__phone">+1 323-913-4688</span>
+                    </div>
+                </div>
+                <div class="team__item">
+                    <div class="team__item__img">
+                        <img src="./img/consultant.jpg" alt="Tour Consultant">
+                        <svg x="0px" y="0px" width="263" height="70px" viewBox="0 0 270 70"
+                            enable-background="new 0 0 270 70" xml:space="preserve">
+                            <g>
+                                <path fill="#f7f7f7"
+                                    d="M202.085,0C193.477,28.912,166.708,50,135,50S76.523,28.912,67.915,0H0v70h270V0H202.085z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="team__item__info">
+                        <h4 class="member__name">Jill Peterson</h4>
+                        <h5 class="member__status">Tour Consultant</h5>
+                        <span class="team__phone">+1 323-913-4688</span>
+                    </div>
+                </div>
+                <div class="team__item">
+                    <div class="team__item__img">
+                        <img src="./img/manager.jpg" alt="PR Manager">
+                        <svg x="0px" y="0px" width="263" height="70px" viewBox="0 0 270 70"
+                            enable-background="new 0 0 270 70" xml:space="preserve">
+                            <g>
+                                <path fill="#f7f7f7"
+                                    d="M202.085,0C193.477,28.912,166.708,50,135,50S76.523,28.912,67.915,0H0v70h270V0H202.085z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="team__item__info">
+                        <h4 class="member__name">James Smith</h4>
+                        <h5 class="member__status">PR Manager</h5>
+                        <span class="team__phone">+1 323-913-4688</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT US -->
+
+    <div class="contacts" id="contacts">
+        <div class="container">
+            <h2 class="section__title">Get in touch</h2>
+            <div class="contacts__block">
+                <div class="contacts__items">
+                    <div class="contacts__item">
+                        <svg width="80" height="80" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6 7C6 5.11438 6 4.17157 6.58579 3.58579C7.17157 3 8.11438 3 10 3H12H14C15.8856 3 16.8284 3 17.4142 3.58579C18 4.17157 18 5.11438 18 7V12V17C18 18.8856 18 19.8284 17.4142 20.4142C16.8284 21 15.8856 21 14 21H12H10C8.11438 21 7.17157 21 6.58579 20.4142C6 19.8284 6 18.8856 6 17V12V7Z"
+                                stroke="#01B3A7" stroke-width="2" stroke-linejoin="round" />
+                            <path d="M11.5 18H12.5" stroke="#01B3A7" stroke-width="2" stroke-linecap="round" />
+                        </svg>
+                        <a href="tel: +1 323-913-4688" class="contacts__link">+1 323-913-4688</a>
+                        <a href="tel: +1 323-913-4688" class="contacts__link">+1 323-888-4554</a>
+                    </div>
+                    <div class="contacts__item">
+                        <svg width="80" height="80" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M34 13.5H26V10.5C25.999 9.97 25.788 9.461 25.413 9.086C25.039 8.712 24.53 8.501 24 8.5H10C9.47 8.501 8.961 8.711 8.586 9.086C8.211 9.461 8.001 9.97 8 10.5V34.5C8.001 35.03 8.212 35.539 8.586 35.913C8.961 36.288 9.47 36.499 10 36.5H34C34.53 36.499 35.038 36.288 35.413 35.913C35.788 35.538 35.999 35.03 36 34.5V15.5C35.999 14.97 35.788 14.461 35.413 14.086C35.039 13.712 34.53 13.501 34 13.5ZM19 34.5H15V29.5H19V34.5ZM24 34.5H21V29.5C20.999 28.97 20.788 28.461 20.413 28.087C20.039 27.712 19.53 27.501 19 27.5H15C14.47 27.501 13.961 27.712 13.586 28.087C13.212 28.461 13.001 28.97 13 29.5V34.5H10L9.999 10.5H24V34.5ZM34 34.5H26V15.5H34V34.5ZM31 22.5C31 22.698 30.941 22.891 30.831 23.056C30.722 23.22 30.565 23.348 30.383 23.424C30.2 23.5 29.999 23.519 29.805 23.481C29.611 23.442 29.433 23.347 29.293 23.207C29.153 23.067 29.058 22.889 29.019 22.695C28.981 22.501 29 22.3 29.076 22.117C29.152 21.935 29.28 21.778 29.444 21.669C29.609 21.559 29.802 21.5 30 21.5C30.265 21.5 30.52 21.605 30.707 21.793C30.895 21.98 31 22.235 31 22.5ZM29 18.5C29 18.302 29.059 18.109 29.169 17.944C29.278 17.78 29.435 17.652 29.617 17.576C29.8 17.5 30.001 17.481 30.195 17.519C30.389 17.558 30.567 17.653 30.707 17.793C30.847 17.933 30.942 18.111 30.981 18.305C31.019 18.499 31 18.7 30.924 18.883C30.848 19.065 30.72 19.222 30.556 19.331C30.391 19.441 30.198 19.5 30 19.5C29.735 19.5 29.48 19.395 29.293 19.207C29.105 19.02 29 18.765 29 18.5ZM21 22.5C21 22.698 20.941 22.891 20.831 23.056C20.722 23.22 20.565 23.348 20.383 23.424C20.2 23.5 19.999 23.519 19.805 23.481C19.611 23.442 19.433 23.347 19.293 23.207C19.153 23.067 19.058 22.889 19.019 22.695C18.981 22.501 19 22.3 19.076 22.117C19.152 21.935 19.28 21.778 19.444 21.669C19.609 21.559 19.802 21.5 20 21.5C20.265 21.5 20.52 21.605 20.707 21.793C20.895 21.98 21 22.235 21 22.5ZM21 18.5C21 18.698 20.941 18.891 20.831 19.056C20.722 19.22 20.565 19.348 20.383 19.424C20.2 19.5 19.999 19.519 19.805 19.481C19.611 19.442 19.433 19.347 19.293 19.207C19.153 19.067 19.058 18.889 19.019 18.695C18.981 18.501 19 18.3 19.076 18.117C19.152 17.935 19.28 17.778 19.444 17.669C19.609 17.559 19.802 17.5 20 17.5C20.265 17.5 20.52 17.605 20.707 17.793C20.895 17.98 21 18.235 21 18.5ZM21 14.5C21 14.698 20.941 14.891 20.831 15.056C20.722 15.22 20.565 15.348 20.383 15.424C20.2 15.5 19.999 15.519 19.805 15.481C19.611 15.442 19.433 15.347 19.293 15.207C19.153 15.067 19.058 14.889 19.019 14.695C18.981 14.501 19 14.3 19.076 14.117C19.152 13.935 19.28 13.778 19.444 13.669C19.609 13.559 19.802 13.5 20 13.5C20.265 13.5 20.52 13.605 20.707 13.793C20.895 13.98 21 14.235 21 14.5ZM15 22.5C15 22.698 14.941 22.891 14.831 23.056C14.722 23.22 14.565 23.348 14.383 23.424C14.2 23.5 13.999 23.519 13.805 23.481C13.611 23.442 13.433 23.347 13.293 23.207C13.153 23.067 13.058 22.889 13.019 22.695C12.981 22.501 13 22.3 13.076 22.117C13.152 21.935 13.28 21.778 13.444 21.669C13.609 21.559 13.802 21.5 14 21.5C14.265 21.5 14.52 21.605 14.707 21.793C14.895 21.98 15 22.235 15 22.5ZM15 18.5C15 18.698 14.941 18.891 14.831 19.056C14.722 19.22 14.565 19.348 14.383 19.424C14.2 19.5 13.999 19.519 13.805 19.481C13.611 19.442 13.433 19.347 13.293 19.207C13.153 19.067 13.058 18.889 13.019 18.695C12.981 18.501 13 18.3 13.076 18.117C13.152 17.935 13.28 17.778 13.444 17.669C13.609 17.559 13.802 17.5 14 17.5C14.265 17.5 14.52 17.605 14.707 17.793C14.895 17.98 15 18.235 15 18.5ZM15 14.5C15 14.698 14.941 14.891 14.831 15.056C14.722 15.22 14.565 15.348 14.383 15.424C14.2 15.5 13.999 15.519 13.805 15.481C13.611 15.442 13.433 15.347 13.293 15.207C13.153 15.067 13.058 14.889 13.019 14.695C12.981 14.501 13 14.3 13.076 14.117C13.152 13.935 13.28 13.778 13.444 13.669C13.609 13.559 13.802 13.5 14 13.5C14.265 13.5 14.52 13.605 14.707 13.793C14.895 13.98 15 14.235 15 14.5Z"
+                                fill="#01B3A7" />
+                        </svg>
+                        <p class="contacts__info">4730 Crystal Springs Dr, <br> Los Angeles, CA 90027</p>
+                    </div>
+                    <div class="contacts__item">
+                        <svg width="80" height="80" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15.5 11.5H15.51M11.5 11.5H11.51M7.5 11.5H7.51M15.6953 19.2318L19.1027 20.3676C19.8845 20.6282 20.6282 19.8844 20.3676 19.1027L19.2318 15.6953M15.3 19.1C15.3 19.1 14.0847 20 11.5 20C6.80558 20 3 16.1944 3 11.5C3 6.80558 6.80558 3 11.5 3C16.1944 3 20 6.80558 20 11.5C20 14 19.1 15.3 19.1 15.3"
+                                stroke="#01B3A7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <a href="#" class="contacts__link">traveltime@gmail.org</a>
+                    </div>
+                </div>
+                <p class="contacts__question">If you have any questions, just fill in the contact form, and we will
+                    answer you shortly.</p>
+                <form action="#" class="contacts__form">
+                    <input type="text" name="name" placeholder="Your Name" class="contacts__form__input">
+                    <input type="email" name="email" placeholder="E-mail" class="contacts__form__input">
+                    <input type="tel" name="tel" placeholder="Phone" class="contacts__form__input">
+                    <textarea name="message" cols="30" rows="10" class="contacts__form__textarea"
+                        placeholder="Message"></textarea>
+                    <button class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer__block">
+                <div class="footer__item">
+                    <a href="#" class="footer__logo">
+                        <img src="./img/logo.webp" alt="logo" height="80">
+                    </a>
+                </div>
+                <div class="footer__item contact">
+                    <h4 class="footer__title">CONTACT US</h4>
+                    <div class="footer__item__unite">
+                        <svg width="25" height="25" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3 6.5C3 14.5081 9.49187 21 17.5 21C18.166 21 18.8216 20.9551 19.4637 20.8682C20.3747 20.7448 21 19.9292 21 19.01V16.4415C21 15.5807 20.4491 14.8164 19.6325 14.5442L16.4841 13.4947C15.6836 13.2279 14.8252 13.699 14.6206 14.5177C14.3475 15.6102 12.987 15.987 12.1907 15.1907L8.80926 11.8093C8.01301 11.013 8.38984 9.65254 9.48229 9.37943C10.301 9.17476 10.7721 8.31644 10.5053 7.51586L9.45585 4.36754C9.18362 3.55086 8.41934 3 7.55848 3H4.99004C4.0708 3 3.25518 3.62533 3.13185 4.53627C3.0449 5.17845 3 5.83398 3 6.5Z"
+                                stroke="#01B3A7" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
+                        <a href="#" class="footer__item__unite__info link">+1 323-913-4688</a>
+                    </div>
+                    <div class="footer__item__unite">
+                        <svg width="25" height="25" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M23 6V18C23 19.6523 21.6523 21 20 21H4C2.34772 21 1 19.6523 1 18V6C1 4.34315 2.34315 3 4 3H20C21.6569 3 23 4.34315 23 6ZM3.10658 5.55395C3.27196 5.22692 3.61204 5 4 5H20C20.388 5 20.728 5.22692 20.8934 5.55395L12 11.7793L3.10658 5.55395ZM3 7.92066L10.8531 13.4178C11.5417 13.8999 12.4583 13.8999 13.1469 13.4178L21 7.92066V18C21 18.5477 20.5477 19 20 19H4C3.45228 19 3 18.5477 3 18V7.92066Z"
+                                fill="#01B3A7" />
+                        </svg>
+                        <a href="#" class="footer__item__unite__info link">traveltime@gmail.org</a>
+                    </div>
+                    <div class="footer__item__unite">
+                        <svg fill="#01B3A7" width="25" height="25" viewBox="0 0 32 32" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16.114-0.011c-6.559 0-12.114 5.587-12.114 12.204 0 6.93 6.439 14.017 10.77 18.998 0.017 0.020 0.717 0.797 1.579 0.797h0.076c0.863 0 1.558-0.777 1.575-0.797 4.064-4.672 10-12.377 10-18.998 0-6.618-4.333-12.204-11.886-12.204zM16.515 29.849c-0.035 0.035-0.086 0.074-0.131 0.107-0.046-0.032-0.096-0.072-0.133-0.107l-0.523-0.602c-4.106-4.71-9.729-11.161-9.729-17.055 0-5.532 4.632-10.205 10.114-10.205 6.829 0 9.886 5.125 9.886 10.205 0 4.474-3.192 10.416-9.485 17.657zM16.035 6.044c-3.313 0-6 2.686-6 6s2.687 6 6 6 6-2.687 6-6-2.686-6-6-6zM16.035 16.044c-2.206 0-4.046-1.838-4.046-4.044s1.794-4 4-4c2.207 0 4 1.794 4 4 0.001 2.206-1.747 4.044-3.954 4.044z">
+                            </path>
+                        </svg>
+                        <p class="footer__item__unite__info">4730 Crystal Springs Dr, <br> Los Angeles, CA 90027</p>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <h4 class="footer__title">QUICK LINKS</h4>
+                    <ul class="footer__menu">
+                        <li class="footer__menu__item">
+                            <a href="#home" class="footer__menu__link">Home</a>
+                        </li>
+                        <li class="footer__menu__item">
+                            <a href="#about" class="footer__menu__link">About</a>
+                        </li>
+                        <li class="footer__menu__item">
+                            <a href="#discover" class="footer__menu__link">Discover</a>
+                        </li>
+                        <li class="footer__menu__item">
+                            <a href="#discover" class="footer__menu__link">Services</a>
+                        </li>
+                        <li class="footer__menu__item">
+                            <a href="#place" class="footer__menu__link">Team</a>
+                        </li>
+                        <li class="footer__menu__item">
+                            <a href="#place" class="footer__menu__link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <h4 class="footer__title">SOCIAL</h4>
+                    <div class="social__media">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <svg width="20" height="20" viewBox="-5 0 20 20" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                </defs>
+                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="Dribbble-Light-Preview" transform="translate(-385.000000, -7399.000000)"
+                                        fill="#FFFFFF">
+                                        <g id="icons" transform="translate(56.000000, 160.000000)">
+                                            <path
+                                                d="M335.821282,7259 L335.821282,7250 L338.553693,7250 L339,7246 L335.821282,7246 L335.821282,7244.052 C335.821282,7243.022 335.847593,7242 337.286884,7242 L338.744689,7242 L338.744689,7239.14 C338.744689,7239.097 337.492497,7239 336.225687,7239 C333.580004,7239 331.923407,7240.657 331.923407,7243.7 L331.923407,7246 L329,7246 L329,7250 L331.923407,7250 L331.923407,7259 L335.821282,7259 Z"
+                                                id="facebook-[#176]">
+
+                                            </path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <svg width="20" height="20" viewBox="0 0 20 20" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                </defs>
+                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7439.000000)"
+                                        fill="#FFFFFF">
+                                        <g id="icons" transform="translate(56.000000, 160.000000)">
+                                            <path
+                                                d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792"
+                                                id="instagram-[#167]">
+
+                                            </path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank">
+                            <svg width="20" height="20" viewBox="0 -2 20 20" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                </defs>
+                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="Dribbble-Light-Preview" transform="translate(-60.000000, -7521.000000)"
+                                        fill="#FFFFFF">
+                                        <g id="icons" transform="translate(56.000000, 160.000000)">
+                                            <path
+                                                d="M10.29,7377 C17.837,7377 21.965,7370.84365 21.965,7365.50546 C21.965,7365.33021 21.965,7365.15595 21.953,7364.98267 C22.756,7364.41163 23.449,7363.70276 24,7362.8915 C23.252,7363.21837 22.457,7363.433 21.644,7363.52751 C22.5,7363.02244 23.141,7362.2289 23.448,7361.2926 C22.642,7361.76321 21.761,7362.095 20.842,7362.27321 C19.288,7360.64674 16.689,7360.56798 15.036,7362.09796 C13.971,7363.08447 13.518,7364.55538 13.849,7365.95835 C10.55,7365.79492 7.476,7364.261 5.392,7361.73762 C4.303,7363.58363 4.86,7365.94457 6.663,7367.12996 C6.01,7367.11125 5.371,7366.93797 4.8,7366.62489 L4.8,7366.67608 C4.801,7368.5989 6.178,7370.2549 8.092,7370.63591 C7.488,7370.79836 6.854,7370.82199 6.24,7370.70483 C6.777,7372.35099 8.318,7373.47829 10.073,7373.51078 C8.62,7374.63513 6.825,7375.24554 4.977,7375.24358 C4.651,7375.24259 4.325,7375.22388 4,7375.18549 C5.877,7376.37088 8.06,7377 10.29,7376.99705"
+                                                id="twitter-[#154]">
+
+                                            </path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="copyright__block">
+                    <p class="copyright__info"> &copy; 2022 Travel Time. All Rights Reserved. Made by Hasmik Hunanyan
+                    </p>
+                    <a href="#" class="copyright__info copyright__link">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="./js/index.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <!-- <script src="assets/js/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script> -->
+
+    <!-- Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+
+</html>

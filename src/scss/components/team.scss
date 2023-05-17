@@ -1,0 +1,114 @@
+@import "../global.scss";
+@import "../variables.scss";
+
+.team__section {
+    padding-bottom: 128px;
+
+    .container {
+        .section__title {
+            text-align: center;
+            letter-spacing: 1px;
+        }
+
+        .team__block {
+            padding: 32px 0 0;
+            display: flex;
+            justify-content: center;
+            min-height: 300px;
+            gap: 40px;
+
+            .team__item {
+                background: #f7f7f7;
+                width: 25%;
+                text-align: center;
+                overflow: hidden;
+
+                .team__item__img {
+                    position: relative;
+                    width: 100%;
+                    padding: 0 0 12px;
+                    background: $white;
+
+                    img {
+                        margin: 0 auto;
+                        display: block;
+                        border-radius: 50%;
+                    }
+
+                    svg {
+                        position: absolute;
+                        left: 50%;
+                        bottom: -20px;
+                        transform: translate3d(-50%, 0, 0);
+                    }
+                }
+
+                .team__item__info {
+                    padding: 32px 32px 48px;
+
+                    .member__name {
+                        font-family: 'Raleway', sans-serif;
+                        font-size: 22px;
+                        margin: 0;
+                    }
+
+                    .member__status {
+                        margin: 16px 0;
+                        font-size: 18px;
+                        color: $primaryColor;
+                        font-weight: 400;
+                    }
+
+                    .team__phone {
+                        font-size: 18px;
+                        letter-spacing: 1px;
+                    }
+                }
+            }
+        }
+
+        @media screen and (max-width: $tabletL) {
+            .team__block {
+                .team__item {
+                    .team__item__info {
+                        .member__name {
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+
+        @media screen and (max-width: $tabletM) {
+            .team__block {
+                flex-wrap: wrap;
+                gap: 32px;
+
+                .team__item {
+                    width: 32%;
+                }
+            }
+        }
+        @media screen and (max-width: $mobileM) {
+            .team__block {
+                .team__item {
+                    width: 40%;
+                }
+            }
+        }
+        @media screen and (max-width: $mobileS) {
+            .team__block {
+                .team__item {
+                    width: 62%;
+                }
+            }
+        }
+        @media screen and (max-width: $mobileXS) {
+            .team__block {
+                .team__item {
+                    width: 82%;
+                }
+            }
+        }
+    }
+}

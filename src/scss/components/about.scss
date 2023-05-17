@@ -1,0 +1,89 @@
+@import "../global.scss";
+@import "../variables.scss";
+
+.about__section {
+    .container {
+        .about__section__content {
+            display: flex;
+            justify-content: space-between;
+
+            .about__data {
+                padding: 128px 0;
+
+                .about__description {
+                    color: $lightText;
+                    font-size: 20px;
+                    font-weight: 400;
+                }
+            }
+
+            .about__img {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 16px;
+
+                .about__img-overlay {
+                    .about__img-one {
+                        width: 230px;
+                    }
+
+                    .about__img-two {
+                        width: 290px;
+                    }
+                }
+            }
+        }
+
+        @media screen and (max-width: $tabletL) {
+            .about__section__content {
+                .about__data {
+                    .about__description {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+
+        @media screen and (max-width: $tabletM) {
+            .about__section__content {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                text-align: center;
+
+                .about__data {
+                    padding: 64px 0;
+                }
+            }
+        }
+        @media screen and (max-width: $mobileS) {
+            .about__section__content {
+                .about__data {
+                    .about__description {
+                        font-size: 12px;
+                    }
+                }
+            .about__img {
+                .about__img-overlay {
+                    .about__img-one {
+                        width: 166px;
+                    }
+                    .about__img-two {
+                        width: 200px;
+                    }
+                }
+            }
+            }
+        }
+        @media screen and (max-width: $mobileXS) {
+            .about__section__content {
+                .about__data {
+                    .about__description {
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    }
+}
